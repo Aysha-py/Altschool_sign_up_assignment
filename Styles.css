@@ -20,7 +20,8 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: 'Literata', serif;
    color: #000;
-   background-color:rgb(244, 253, 252) ;
+   padding: 15px 0;
+   
 
 }
 
@@ -51,9 +52,12 @@ p, h1, h2, h3, h4, h5, h6 {
     display: flex;
     width:fit-content;
     max-width: 1440px;
+    min-height: fit-content;
     margin: 0 auto;
-    padding: 40px 140px 0 140px;
+    padding: 15px 140px 15px 140px;
     font-family: 'Sofia-pro', sans-serif;  
+    background-color:rgb(244, 253, 252) ;
+  
 }
 #section-one{
     margin-top: 205px;
@@ -174,8 +178,6 @@ form{
 .form-info-block .form-info input,
 button{
     width: 100%;
-   
- 
 }
 #section-one p{
     color:#737373;
