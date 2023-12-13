@@ -157,12 +157,16 @@ p.register-text{
     text-align: center;
 }
 @media only screen and (max-width:375px){
+    body{
+        padding: 0;
+    }
     #sign-up-container{
     /* border: 1px solid yellow; */
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 0 24px 64px 24px;
+    
  
 }
 .form-info-grid{
