@@ -42,20 +42,18 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 #sign-up-container{
     display: flex;
-    width:fit-content;
     max-width: 1440px;
-    min-height: fit-content;
+    border: 1px solid #000;
     margin: 0 auto;
-    padding: 15px 140px 15px 140px;
     font-family: 'Sofia-pro', sans-serif;  
-    background-color:rgb(244, 253, 252) ;
-  
+    /* padding: 15px 140px 15px 140px; */
+    background-color:rgb(244, 253, 252) ; 
 }
 #section-one{
     margin-top: 205px;
     margin-inline-end: 120px;
 }
-/* #section-one img{
+#section-one img{
     width: 77.33px;
     height: 80px;
     margin-block-end: 50px;
@@ -148,15 +146,17 @@ p.register-text,label,input{
 p.register-text{
     text-align: center;
 }
-@media only screen and (max-width:375px){
+
+@media only screen and (max-width:620px){
     #sign-up-container{
-    /* border: 1px solid yellow; 
+     border: 1px solid yellow; 
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 0 24px 64px 24px;
  
 }
+
 .form-info-grid{
   grid-template-columns: 1fr;
 }
@@ -170,7 +170,7 @@ form{
 .form-info-block .form-info input,
 button{
     width: 100%;
-}
+} 
 #section-one p{
     color:#737373;
     width: fit-content;
@@ -190,6 +190,6 @@ p.desktop-text{
 p.mobile-text{
     display: block;
     font-size: 16px;
-}
+} 
 
-} */
+}
