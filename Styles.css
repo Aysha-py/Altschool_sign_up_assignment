@@ -13,7 +13,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: 'Literata', serif;
    color: #000;
-   background-color:#fff; 
+   background-color: rgb(232, 250, 248);
 
 }
 
@@ -42,20 +42,18 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 #sign-up-container{
     display: flex;
+    align-items: center;
     max-width: 1440px;
-    border: 1px solid #000;
     margin: 0 auto;
-    font-family: 'Sofia-pro', sans-serif;  
-    padding: 15px 140px 15px 140px;
-    background-color: rgb(232, 250, 248);
-   
+    font-family: 'Sofia-pro', sans-serif;
+    margin-block-start:50px;  
+    padding: 0 100px;
 }
 .flex-item{
     flex: 1;
+    
 }
-#section-one{
-    margin-top: 205px;
-}
+
 #section-one img{
     width: 77.33px;
     height: 80px;
@@ -70,25 +68,26 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 #section-one p{
     color:#737373;
-    /* width: 460px; */
-    word-wrap: break-word;
     font-size: 16px;
 }
 
 section+section{
-   
-    /* background-color: #fff; */
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #fff;
 }
-form{
-    padding: 40px;
-   
+#section-two form{
+    padding: 20px 40px;
 }
 .form-info-grid{
-  display: grid;
-   grid-template-columns: 1fr 1fr; 
-  grid-gap:30px 24px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(238px, 1fr));
+    gap: 20px;
+    
+}
+.form-info-grid .form-info{
+  
+    width: 100%;
 }
 form label{
     display: block;
@@ -102,16 +101,15 @@ form label{
 .form-info select,
 .form-info #dateofbirth
 {
-    width: 238px;
     height: 48px;
     padding-inline-start: 14px;
     padding-inline-end: 14px;
     border: 1px solid;
+    width: 100%;
    
 }
 .form-info-block .form-info select,
 .form-info-block .form-info input{
-    width: 540px;
     height: 48px;
 }
 
@@ -124,7 +122,6 @@ input:focus, select:focus {
     outline: none; 
 }
 button{
-    width: 540px;
     padding: 0 40px;
     height: 48px;
     background-color: rgba(46, 196, 182, 1);
@@ -133,6 +130,7 @@ button{
 }
 section + section p{
     padding: 16px 19px 0 18px;
+    
 }
 a{
     color:rgba(46, 196, 182, 1); ;
@@ -151,7 +149,7 @@ p.register-text{
 }
 
 
-@media only screen and (max-width:920px){
+@media only screen and (max-width:820px){
     #sign-up-container{
     display: flex;
     flex-direction: column;
@@ -163,8 +161,9 @@ p.register-text{
 .form-info-grid{
   grid-template-columns: 1fr;
 }
-form{
-    padding:24px 16px 30px 16px;
+
+#section-two form{
+    padding: 24px 16px;
 }
 .form-info input,
 .form-info select,
