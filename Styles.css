@@ -13,6 +13,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: 'Literata', serif;
    color: #000;
+   background-color:#fff; 
 
 }
 
@@ -45,12 +46,15 @@ p, h1, h2, h3, h4, h5, h6 {
     border: 1px solid #000;
     margin: 0 auto;
     font-family: 'Sofia-pro', sans-serif;  
-    /* padding: 15px 140px 15px 140px; */
-    background-color:rgb(244, 253, 252) ; 
+    padding: 15px 140px 15px 140px;
+    background-color: rgb(232, 250, 248);
+   
+}
+.flex-item{
+    flex: 1;
 }
 #section-one{
     margin-top: 205px;
-    margin-inline-end: 120px;
 }
 #section-one img{
     width: 77.33px;
@@ -66,14 +70,14 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 #section-one p{
     color:#737373;
-    width: 460px;
+    /* width: 460px; */
     word-wrap: break-word;
     font-size: 16px;
 }
 
 section+section{
    
-    background-color: #fff;
+    /* background-color: #fff; */
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -83,7 +87,7 @@ form{
 }
 .form-info-grid{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+   grid-template-columns: 1fr 1fr; 
   grid-gap:30px 24px;
 }
 form label{
@@ -146,7 +150,8 @@ p.register-text{
     text-align: center;
 }
 
-@media only screen and (max-width:620px){
+
+@media only screen and (max-width:920px){
     #sign-up-container{
     display: flex;
     flex-direction: column;
