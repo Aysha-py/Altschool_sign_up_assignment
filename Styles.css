@@ -164,6 +164,7 @@ p.register-text{
 
 #section-two form{
     padding: 24px 16px;
+    width: 100%;
 }
 .form-info input,
 .form-info select,
@@ -193,5 +194,8 @@ p.mobile-text{
     display: block;
     font-size: 16px;
 } 
+.date{
+    min-width: 100%;
+}
 
 }
