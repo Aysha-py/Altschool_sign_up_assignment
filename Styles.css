@@ -13,7 +13,6 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: 'Literata', serif;
    color: #000;
-   border: 1px solid red;
 
 }
 
@@ -149,7 +148,6 @@ p.register-text{
 
 @media only screen and (max-width:620px){
     #sign-up-container{
-     border: 1px solid yellow; 
     display: flex;
     flex-direction: column;
     width: 100%;
